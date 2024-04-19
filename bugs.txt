@@ -1,0 +1,68 @@
+
+******************* Bug 1 ************************
+
+**Bug Title:** Close icon is not placed correctly 
+**Steps to Reproduce:**
+    1. Remove cache for https://www.topcoder.com of a particular browser - google chrome  
+    2. Hit https://www.topcoder.com in the same browser and see the popup - PFA close_icon_mis_location.jpg image file
+**Actual Result:**
+    1. Close icon colliding with (Which are you?) text like hovering on it
+Expected Result:��
+    1. Close icon should not collide with (Which are you?) text
+**Screenshots or screencast URL:** close_icon_mis_location.jpg within this repo
+Device/OS/Browser Information: Vivo V2141, Android version 13 and Google Chrome
+
+UI Bug��- Layout issues (misalignment).
+
+******************* Bug 2 ************************
+
+**Bug Title:** Tool switcher is not visible as represented in text
+**Steps to Reproduce:**
+    1. Remove cache for https://www.topcoder.com of a particular browser - google chrome  
+    2. Hit https://www.topcoder.com in the same browser and see the popup
+    3. Select Which are you? popup as talent
+    4. The center text which representing the position of tool switcher is wrong
+**Actual Result:**
+    1. The center text which representing the position of tool switcher is wrong
+Expected Result:��
+    1. Tool switcher should visible on top right corner as represented in text in dashboard
+**Screenshots or screencast URL:** tool_switcher_not_present.jpg within this repo
+Device/OS/Browser Information: Vivo V2141, Android version 13 and Google Chrome
+
+UI Bug��- No tool switcher UI at all for the first page.
+Functional Bug��- Improper system behaviour. Tool switcher is not visible on the first page after selecting talent option in Which are you? popup.
+
+
+******************* Bug 3 ************************
+
+**Bug Title:** Which are you? || Who are you? 
+**Steps to Reproduce:**
+    1. Remove cache for https://www.topcoder.com of a particular browser - google chrome  
+    2. Hit https://www.topcoder.com in the same browser and see the popup
+    3. Popup comes says Which are you?
+**Actual Result:**
+    1. The label is Which are you?
+Expected Result:��
+    1. Who are you? 
+**Screenshots or screencast URL:** close_icon_mis_location.jpg within this repo
+Device/OS/Browser Information: Vivo V2141, Android version 13 and Google Chrome
+
+Content Bug��- Grammar mistake.
+
+
+
+******************* Bug 4 ************************
+
+**Bug Title:** Form validation is mismatch at Let's talk topcoder page
+**Steps to Reproduce:**
+    1. Hit https://www.topcoder.com in the browser
+    2. Select Product link in nav bar
+    3. Then select let's talk button
+**Actual Result:**
+    1. Form validation is not proper for let's talk form 
+Expected Result:��
+    1. name, email, phone no. should have validated way better
+**Screenshots or screencast URL:** lets_talk.png within this repo
+Device/OS/Browser Information: Lenovo Thinkstation, Ubuntu 22 and Google Chrome
+
+Functional Bug��- Form validation is not up to the mark. PFA lets_talk.png image file.
